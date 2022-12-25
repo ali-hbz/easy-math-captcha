@@ -1,0 +1,20 @@
+{
+  "name": "ali-hbz/easy-captcha",
+  "description": "simple and easy captcha for php.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ALI HBZ",
+      "email": "alihbz73@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.4"
+  }
+}
