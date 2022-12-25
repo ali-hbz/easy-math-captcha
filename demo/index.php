@@ -8,7 +8,7 @@ $captcha = new EasyMathCaptcha();
 
 //$captcha->setTextColor(21,87,36);
 //$captcha->setBackgroundColor(212,237,217);
-//$captcha->setFont('iransans');
+$captcha->setFont('iransans');
 
 //$captcha->getAnswer();
 

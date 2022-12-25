@@ -22,7 +22,6 @@ class EasyMathCaptcha
 
     private $textFontPath = [
         'aovel' => __DIR__ . '/../../assets/fonts/aovel.ttf',
-        'iransans' => __DIR__ . '/../../assets/fonts/iransans.ttf',
     ];
 
     private $question;
@@ -75,7 +74,7 @@ class EasyMathCaptcha
             $font = $name;
         } else if (count($this->textFontPath) >= 1) {
             $font = array_reverse($this->textFontPath);
-            $font = end($font);
+            $font = key($font);
         }
 
         if ($font) {
