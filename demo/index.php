@@ -1,15 +1,15 @@
 <?php
 
-use Core\Classes\SimpleMathCaptcha;
+use Core\Classes\EasyMathCaptcha;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$simpleCaptcha = new SimpleMathCaptcha();
+$captcha = new EasyMathCaptcha();
 
-//$simpleCaptcha->setTextColor(21,87,36);
-//$simpleCaptcha->setBackgroundColor(212,237,217);
-//$simpleCaptcha->setFont('iransans');
+//$captcha->setTextColor(21,87,36);
+//$captcha->setBackgroundColor(212,237,217);
+//$captcha->setFont('iransans');
 
-//$simpleCaptcha->getAnswer();
+//$captcha->getAnswer();
 
-$simpleCaptcha->output();
+$captcha->output();

@@ -2,7 +2,7 @@
 
 namespace Core\Classes;
 
-class SimpleMathCaptcha
+class EasyMathCaptcha
 {
     private $width = 150;
 
